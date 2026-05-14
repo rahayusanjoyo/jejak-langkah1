@@ -8,7 +8,7 @@ const fadeUp = {
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: "easeOut" }
+    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }
   }
 };
 
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="overflow-hidden rounded-[40px]">
 
             <img
-              src="/images/prau/6.jpeg"
+              src="/images/prau/5.jpeg"
               alt="Gunung Prau"
               className="w-full h-[600px] object-cover group-hover:scale-105 transition duration-700"
             />
