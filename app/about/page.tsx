@@ -57,7 +57,7 @@ export default function AboutPage() {
                     Beyond hiking and traveling, I am also a certified
                     <span className="text-[#8dd6ff] font-semibold"> AIDA freediver</span>.
                     Beneath the surface of the ocean, I discovered another
-                    kind of calm — a quiet world where everything slows down,
+                    kind of calm  a quiet world where everything slows down,
                     leaving only breath, heartbeat, and stillness.
                   </p>
 
@@ -104,7 +104,7 @@ export default function AboutPage() {
                 <div className="absolute -bottom-6 -left-10 bg-white/90 backdrop-blur-md rounded-2xl px-6 py-4 shadow-xl">
 
                   <p className="text-sm tracking-[3px] text-gray-500 uppercase">
-                    Explore • Breathe • Live
+                    Explore • Breathe
                   </p>
 
                   <p className="text-xl font-semibold text-[#9b6b2e] mt-1">
@@ -133,7 +133,7 @@ export default function AboutPage() {
           <div className="w-24 h-[2px] bg-[#c8a97e] mx-auto my-8" />
 
           <p className="text-gray-600 text-lg">
-            Every journey leaves a footprint — not only on the road,
+            Every journey leaves a footprint not only on the road,
             but also within ourselves.
           </p>
 
