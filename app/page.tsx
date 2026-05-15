@@ -196,12 +196,12 @@ export default function HomePage() {
                 </p>
 
                 <h3 className="text-3xl font-serif mb-4 leading-tight">
-                  Silence Beneath
-                  The Ocean
+                  EXPLORING MENJANGAN CAVE
+                  IN ONE BREATH
                 </h3>
 
                 <p className="text-gray-600 leading-relaxed">
-                  Discovering calmness where only breath and heartbeat remain.
+                  COMING SOON
                 </p>
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function HomePage() {
                 </h3>
 
                 <p className="text-gray-600 leading-relaxed">
-                  Warm sunrise light painting the mountains and clouds.
+                  COMING SOON
                 </p>
               </div>
             </div>
