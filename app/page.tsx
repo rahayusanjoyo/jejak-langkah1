@@ -1,28 +1,11 @@
-"use client";
-
-import { motion } from "framer-motion";
 import Link from "next/link";
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 50 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }
-  }
-};
 
 export default function Home() {
   return (
     <main className="bg-[#f6f1ea] text-[#2b2b2b] overflow-hidden">
 
       {/* HERO */}
-      <motion.section
-        className="h-screen flex flex-col justify-center items-center text-center px-6 relative overflow-hidden"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2 }}
-      >
+      <section className="h-screen flex flex-col justify-center items-center text-center px-6 relative overflow-hidden">
 
         <div className="absolute w-[700px] h-[700px] bg-white/40 blur-3xl rounded-full top-[-250px]" />
 
@@ -45,7 +28,7 @@ export default function Home() {
           scroll
         </div>
 
-      </motion.section>
+      </section>
 
       {/* HERO IMAGE */}
       <section className="max-w-7xl mx-auto px-6 -mt-20">
@@ -59,32 +42,19 @@ export default function Home() {
       </section>
 
       {/* QUOTE */}
-      <motion.section
-        className="max-w-3xl mx-auto text-center py-32 px-6"
-        variants={fadeUp}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
-      >
+      <section className="max-w-3xl mx-auto text-center py-32 px-6">
 
         <p
           className="text-3xl md:text-5xl leading-relaxed font-extralight text-[#3b3b3b]"
           style={{ fontFamily: "serif" }}
         >
-          “Perjalanan selalu menemukan cara
-          untuk mengubah manusia.”
+          “Perjalanan selalu menemukan cara untuk mengubah manusia.”
         </p>
 
-      </motion.section>
+      </section>
 
       {/* FEATURED PRAU */}
-      <motion.section
-        className="max-w-6xl mx-auto px-6 pb-32"
-        variants={fadeUp}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
-      >
+      <section className="max-w-6xl mx-auto px-6 pb-32">
 
         <Link href="/blog/prau" className="block group">
 
@@ -120,21 +90,13 @@ export default function Home() {
 
         </Link>
 
-      </motion.section>
+      </section>
 
       {/* LATEST STORIES */}
-      <motion.section
-        className="max-w-6xl mx-auto px-6 pb-32"
-        variants={fadeUp}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
-      >
+      <section className="max-w-6xl mx-auto px-6 pb-32">
 
         <div className="flex items-center justify-between mb-10">
-          <h2 className="text-2xl font-light">
-            Latest Stories
-          </h2>
+          <h2 className="text-2xl font-light">Latest Stories</h2>
 
           <Link href="/blog" className="text-sm text-gray-600 hover:text-black transition">
             Lihat semua →
@@ -191,7 +153,7 @@ export default function Home() {
 
         </div>
 
-      </motion.section>
+      </section>
 
     </main>
   );
