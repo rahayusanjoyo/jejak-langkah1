@@ -196,8 +196,8 @@ export default function HomePage() {
                 </p>
 
                 <h3 className="text-3xl font-serif mb-4 leading-tight">
-                  EXPLORING MENJANGAN CAVE
-                  IN ONE BREATH
+                  Exploring MENJANGAN CAVE
+                  in one breath
                 </h3>
 
                 <p className="text-gray-600 leading-relaxed">
@@ -303,7 +303,7 @@ export default function HomePage() {
 
             <div className="space-y-3 text-lg">
               <p>@rahayu.sanjoyo</p>
-              <p>@rahasanjoyo</p>
+              <p>@rahayusanjoyo</p>
             </div>
           </div>
         </div>
