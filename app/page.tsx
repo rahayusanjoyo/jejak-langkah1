@@ -148,7 +148,77 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
+{/* CARD WIBAWA MUKTI */}
+<a
+  href="/blog/wibawa-mukti"
+  className="group overflow-hidden rounded-[32px] shadow-2xl bg-[#f8f5f0] hover:-translate-y-2 transition-all duration-500"
+>
 
+  {/* IMAGE */}
+  <div className="relative overflow-hidden">
+
+    <img
+      src="/images/wibawa/hero.jpeg"
+      alt="Freediving Wibawa Mukti"
+      className="w-full h-[420px] object-cover group-hover:scale-110 transition-all duration-700"
+    />
+
+    {/* OVERLAY */}
+    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+
+    {/* CATEGORY */}
+    <div className="absolute top-6 left-6">
+      <p className="bg-[#0f1720]/70 backdrop-blur-md text-[#d7b07a] text-xs tracking-[4px] uppercase px-4 py-2 rounded-full border border-white/10">
+        Freediving Story
+      </p>
+    </div>
+
+    {/* TITLE INSIDE IMAGE */}
+    <div className="absolute bottom-0 left-0 p-8">
+
+      <h3 className="text-3xl md:text-4xl font-serif text-white leading-tight mb-4">
+        Freediving di
+        <br />
+        Wibawa Mukti
+      </h3>
+
+      <p className="text-white/80 leading-relaxed max-w-sm">
+        Ketika air menjadi tempat pulang,
+        dan kesunyian perlahan menyembuhkan isi kepala.
+      </p>
+    </div>
+  </div>
+
+  {/* CONTENT */}
+  <div className="p-8">
+
+    <div className="flex items-center gap-3 mb-5">
+      <div className="w-12 h-[2px] bg-[#c28d52]" />
+
+      <p className="uppercase tracking-[4px] text-xs text-[#b88348]">
+        Healing Journey
+      </p>
+    </div>
+
+    <p className="text-gray-600 leading-relaxed text-lg">
+      Sebuah cerita tentang napas,
+      kesunyian,
+      dan perjalanan kecil untuk kembali tenang
+      di tengah hidup yang terlalu berisik.
+    </p>
+
+    <div className="mt-8 flex items-center justify-between">
+
+      <span className="text-sm tracking-[3px] uppercase text-gray-400">
+        Read Story
+      </span>
+
+      <div className="w-12 h-12 rounded-full border border-[#d8a15d] flex items-center justify-center text-[#d8a15d] group-hover:bg-[#d8a15d] group-hover:text-white transition-all duration-500">
+        →
+      </div>
+    </div>
+  </div>
+</a>
             {/* CARD 1 */}
             <a
               href="/blog/prau"
@@ -296,16 +366,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="text-right">
-            <p className="uppercase tracking-[4px] text-sm text-gray-500 mb-5">
-              Follow Journey
-            </p>
-
-            <div className="space-y-3 text-lg">
-              <p>@rahayu.sanjoyo</p>
-              <p>@rahayusanjoyo</p>
-            </div>
-          </div>
+          
         </div>
 
         <div className="border-t border-white/10 mt-14 pt-8 text-center text-gray-500 text-sm">
